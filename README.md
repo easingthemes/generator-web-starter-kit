@@ -5,6 +5,8 @@ Yeoman generator for Google's [Web Starter Kit](https://developers.google.com/we
 ## Installation
 
  * Requires Node, Ruby, Gulp, and Sass gem to be installed.
- * `sudo npm install -g yo gulp`
- * `cd generator-web-starter-kit/`
+ * `sudo npm install -g yo generator-web-starter-kit`
+ * `cd project-root-directory/`
+ * `yo web-starter-kit`
  * `npm install`
+ * `gulp serve`
