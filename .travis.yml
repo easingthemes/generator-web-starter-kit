@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-web-starter-kit' ]; then cd .. && eval "mv $currentfolder generator-web-starter-kit" && cd generator-web-starter-kit; fi
+
